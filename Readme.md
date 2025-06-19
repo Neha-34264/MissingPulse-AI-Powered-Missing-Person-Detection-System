@@ -1,10 +1,9 @@
 
 ## Table of Contents
 1. [General Info](#general-info)
-2. [Live Demo](#live-demo)
-3. [Technologies](#technologies)
-4. [Installation](#installation)
-5. [Features](#features)
+2. [Technologies](#technologies)
+3. [Installation](#installation)
+4. [Features](#features)
 ### General Info
 ***
 This web app is an online portal that enables users to register their close ones which are missing and provides interface to see their movement activities that has been tracked through our face recognition surveillance. It shows all the missing people with their images which has been reported by the stakeholder.  Agile Methodology was used for building this project. The best Agile practices adopted were :
@@ -15,51 +14,36 @@ This web app is an online portal that enables users to register their close ones
 * Adopting the concepts of relative estimation and velocity.
 
 
+### Visuals
 
-## Live Demo 
-***
+* Login / Sign up Page
 
+![WhatsApp Image 2025-06-19 at 15 57 28_8c5e1aeb](https://github.com/user-attachments/assets/bdbd9b5e-571a-4802-a1ac-439ad49afde7)
+![WhatsApp Image 2025-06-19 at 15 57 29_b38e3081](https://github.com/user-attachments/assets/3ae9fff0-ea0c-4d05-a3cf-ad44abcc22f3)
 
-* Documentation Link: https://drive.google.com/file/d/1BU0SRQpA34_FoaBTm4EeScGzy8bp9Bzk/view?usp=sharing
-* Demo Video: https://youtu.be/DLSFxclC47w
+* Home
+![WhatsApp Image 2025-06-19 at 15 57 40_d03a9f0d](https://github.com/user-attachments/assets/942aba4d-ec29-4289-8eda-c25d40ed4f7d)
 
-## 
+* Add Missing People
 
-
-### Screenshots
-* Home Page
-
-![Screenshot](./screenshots/Capture1.PNG)
-
-* Add missing person
-
-![Screenshot](./screenshots/Capture2.PNG) 
+![WhatsApp Image 2025-06-19 at 15 57 52_e6f4c147](https://github.com/user-attachments/assets/54597be2-a4b8-47f3-9ec3-aba366c52fe2)
 
 * Missing people list
 
-![Screenshot](./screenshots/Capture3.PNG)
+![WhatsApp Image 2025-06-19 at 15 58 34_f5b62ce9](https://github.com/user-attachments/assets/6126d340-fa79-43e8-a765-549d0ed448ac)
 
 * Tracked locations of missing people and search option
 
-![Screenshot](./screenshots/Capture4.PNG)
+![WhatsApp Image 2025-06-19 at 15 58 34_557105c8](https://github.com/user-attachments/assets/ff82989e-3b36-4149-a9e8-9dc3c5c17b53)
 
 * Initial UI for Survillence area
 
-![Screenshot](./screenshots/Capture5.PNG)
+![WhatsApp Image 2025-06-19 at 15 58 35_899c532b](https://github.com/user-attachments/assets/49bd5795-c35f-4994-aa5b-6151e1352b90)
+
 
 * Further process Mode to show further process how to take actions
 
-![Screenshot](./screenshots/Capture6.PNG)
-
-* Working screenshots while detecting face
-
-![Screenshot](./screenshots/Capture7.PNG)
-
-![Screenshot](./screenshots/Capture8.PNG)
-
-* Whatsapp message recieved simulataneously after locations have been tracked
-
-![Screenshot](./screenshots/capture9.jpeg)
+![WhatsApp Image 2025-06-19 at 15 58 35_6dcb9055](https://github.com/user-attachments/assets/00c4c3fa-b1d8-4388-96b8-b56e20b31298)
 
 ## Technologies
 ***
@@ -105,7 +89,7 @@ $ npm start
 
 ## Features
 ***
-FindOne features:
+MissingPulse features:
 * Interactive UI to show missing people
 * Real Time environment analysis to detect faces
 * Quick and fast Node js backend to support quick response of user detection to database
