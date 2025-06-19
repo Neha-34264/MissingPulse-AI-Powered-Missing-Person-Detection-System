@@ -1,0 +1,95 @@
+/* src/auth.css */
+
+/* Make the whole page fit without scrolling */
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;  /* Prevent page scroll */
+}
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #f0f4f7;  /* Keep the same background */
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border: 1px solid #666;  /* Darker gray border to make it subtle */
+}
+
+.auth-form input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;  /* Light gray border for input boxes */
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333;  /* Dark text for readability */
+  transition: all 0.3s ease-in-out;  /* Smooth transition for focus and input states */
+}
+
+.auth-form input:focus {
+  border-color: #1E90FF;  /* Dark sky blue border when focused */
+  outline: none;
+}
+
+.auth-form input::placeholder {
+  color: #808080;  /* Medium gray placeholder */
+  opacity: 1;  /* Ensure placeholder is fully visible */
+  transition: all 0.3s ease-in-out;  /* Smooth transition */
+}
+
+.auth-form input:focus::placeholder {
+  color: #4682B4;  /* Lighter blue when focused */
+}
+
+/* When input is filled (has value) */
+.auth-form input:valid {
+  color: #000;  /* Black text color when input is filled */
+}
+
+.auth-form input:invalid {
+  color: #FF0000;  /* Red text if input is invalid */
+}
+
+.auth-form button {
+  background: #1E90FF;  /* Dark sky blue */
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.auth-form button:hover {
+  background: #4682B4;  /* Lighter shade of dark sky blue */
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #1E90FF;  /* Dark sky blue */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  color: red;  /* Red color for error or alert messages */
+  font-size: 14px;
+}

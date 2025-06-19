@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;800&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+.hero-section {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5fbff;
+  font-family: 'Nunito Sans', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  gap: 200px; /* Increased gap between text and image */
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 30px;
+}
+
+.hero-image img {
+  max-width: 420px; /* Increased image size */
+  width: 100%;
+  height: auto;
+}
+
+.hero-text {
+  flex: 1;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-text .tagline {
+  font-size: 26px;
+  color: #1976D2;  /* Changed to dark sky blue */
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+
+.hero-text h1 {
+  font-size: 68px;
+  font-weight: 800;
+  color: #FF0000;  /* Changed to red */
+  margin-bottom: 20px;
+}
+
+
+.hero-text .description {
+  font-size: 20px; /* Reduced description text size */
+  color: #1f1f1f;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .hero-image {
+    padding-left: 0;
+    justify-content: center;
+  }
+
+  .hero-text {
+    padding-right: 0;
+  }
+
+  .hero-image img {
+    max-width: 480px; /* Increased image size for smaller screens */
+  }
+
+  .hero-text h1 {
+    font-size: 44px;
+  }
+
+  .hero-text .tagline,
+  .hero-text .description {
+    font-size: 16px; /* Adjusted font size for better readability */
+  }
+}
